@@ -1,0 +1,14 @@
+path: /content/gdrive/My Drive/Colab Notebooks/yolo/
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['frame']
+
+roboflow:
+  workspace: project1-3vnik
+  project: frames_segment
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project1-3vnik/frames_segment/dataset/1
